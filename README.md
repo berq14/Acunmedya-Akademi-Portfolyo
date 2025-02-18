@@ -21,4 +21,10 @@ Site ziyaretçileri, iletişim paneli aracılığıyla mesaj bırakabilir.
 🎨 HTML, CSS, Bootstrap: Arayüz iyileştirmeleri yapıldı.
 🔍 LINQ Sorguları: Veri sorgulama işlemleri için eklendi.
 📂 PartialView: Sayfalar arası geçişleri kolaylaştırmak için kullanıldı.
-![alt text](image-1.png)
+
+![alt text](image-4.png)
+![alt text](image-3.png)
+
+![alt text](image.png)
+
+![alt text](image-2.png)
