@@ -20,9 +20,11 @@ Bu proje, AcunMedyaAkademi C# ile Programlama eğitimi kapsamında ödev olarak 
 <br/>
 📋 Listele özellikleri eklendi.
 <br/>
+<br/>
 🧭 Navigasyon:
 <br/>
 NavBar ve Sidebar özellikleri ile sayfalar arası yönlendirme sağlandı.
+<br/>
 <br/>
 🔗 Sosyal Medya Entegrasyonu:
 <br/>
@@ -30,6 +32,7 @@ Kullanıcıları sosyal medya hesaplarına yönlendiren bağlantılar eklendi.
 💬 Mesaj Gönderme Özelliği:
 <br/>
 Site ziyaretçileri, iletişim paneli aracılığıyla mesaj bırakabilir.
+<br/>
 <br/>
 💻 Kullanılan Teknolojiler
 <br/>
