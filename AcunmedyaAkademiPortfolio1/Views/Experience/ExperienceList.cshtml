@@ -1,0 +1,33 @@
+﻿@model List<AcunmedyaAkademiPortfolio1.Models.TblExperience>
+
+@{
+    ViewBag.Title = "ExperienceList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+<h2>Tecrübe listesi</h2>
+
+
+<p>Burası tecrübelerin listeleneceği sayfamız olacaktır.</p>
+<p>Bu bir test çalışmasıdır.</p>
+<h3>Berk Bekar</h3>
+<table class="table table-bordered">
+    <tr>
+        <th>Tecrübe Id</th>
+        <th>Tecrübe Adı</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Title</td>
+            <td>@item.Period</td>
+            <td>@item.Description</td>
+            <td><a href="/Experience/DeleteExperience/@item.ExperienceId" class="btn btn-danger">Sil</td>
+            <td><a href="/Experience/UpdateExperience/@item.ExperienceId" class="btn btn-success">Güncelle</td>
+        </tr>
+    }
+</table>
+
+<a href="/Experience/CreateExperience" class="btn btn-primary">Yeni Tecrübe Girişi</a>

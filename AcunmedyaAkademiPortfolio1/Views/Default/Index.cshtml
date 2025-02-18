@@ -1,0 +1,77 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+@Html.Action("PartialHead", "Default")
+
+<body class="index-page">
+
+    @Html.Action("PartialSidebar","Default")
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        @Html.Action("PartialHeroSection", "Default")
+        <!-- /Hero Section -->
+        <!-- About Section -->
+        @Html.Action("PartialAbout", "Default")
+        <!-- /About Section -->
+        <!-- Stats Section -->
+        <!-- /Stats Section -->
+
+        @Html.Action("PartialStatistics", "Default")
+        <!-- Skills Section -->
+        @Html.Action("PartialSkill", "Default")
+        <!-- /Skills Section -->
+        <!-- Resume Section -->
+
+        <section id="resume" class="resume section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Özgeçmiş</h2>
+            </div><!-- End Section Title -->
+            <div class="container">
+
+                <div class="row">
+
+                    @Html.Action("PartialEducation", "Default")
+                    @Html.Action("PartialExperience", "Default")
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- /Resume Section -->
+        <!-- Portfolio Section -->
+        @Html.Action("PartialPortfolio", "Default")
+
+        <!-- /Portfolio Section -->
+        <!-- Services Section -->
+        @Html.Action("PartialServices", "Default")
+
+        <!-- /Services Section -->
+        <!-- Testimonials Section -->
+        @Html.Action("PartialTestimonials", "Default")
+
+        <!-- /Testimonials Section -->
+        <!-- Contact Section -->
+        @Html.Action("PartialContact", "Default")
+
+        <!-- /Contact Section -->
+
+    </main>
+
+    @Html.Action("PartialFooter", "Default")
+    @Html.Action("PartialScripts", "Default")
+
+</body>
+
+</html>
